@@ -1,21 +1,38 @@
-# dbngdngf
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
- 
+<!DOCTYPE html>
+<html lang="de">
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website-Leiste</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            padding: 10px 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+    </style>
 </head>
- 
 <body>
- 
-<ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Partners</a></li>
-    <li><a href="#">Contacts</a></li>
-</ul>
- 
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Über uns</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Kontakt</a>
+    </div>
 </body>
 </html>
